@@ -1,11 +1,12 @@
-package app.kasper.tabs.fragments
+
+package com.ettle.kotlinmeterialtabs.fragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import app.kasper.tabs.R
+import com.ettle.kotlinmeterialtabs.R
 
 
 class NineFragment : Fragment() {

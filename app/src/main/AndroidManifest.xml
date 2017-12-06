@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".acivity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,29 +19,29 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ScrollableTabsActivity"
+            android:name=".acivity.ScrollableTabsActivity"
             android:label="@string/title_activity_scrollable_tabs"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".acivity.MainActivity" >
         </activity>
         <activity
-            android:name=".SimpleTabsActivity"
+            android:name=".acivity.SimpleTabsActivity"
             android:label="@string/title_activity_simple_tabs"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".acivity.MainActivity" >
         </activity>
         <activity
-            android:name=".IconTextTabsActivity"
+            android:name=".acivity.IconTextTabsActivity"
             android:label="@string/title_activity_icon_text_tabs"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".acivity.MainActivity" >
         </activity>
         <activity
-            android:name=".IconTabsActivity"
+            android:name=".acivity.IconTabsActivity"
             android:label="@string/title_activity_icon_tabs"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".acivity.MainActivity" >
         </activity>
         <activity
-            android:name=".CustomViewIconTextTabsActivity"
+            android:name=".acivity.CustomViewIconTextTabsActivity"
             android:label="@string/title_activity_custom_view_icon_text_tabs"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".acivity.MainActivity" >
         </activity>
     </application>
 
